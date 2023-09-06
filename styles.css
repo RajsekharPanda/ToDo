@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    position: relative;
+    min-height: 60vh;
+    background: url(./bg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.logo{
+    /* display: none; */
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+.nav{
+    min-width: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems{
+    display: flex;
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btnHeadline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.todoList{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.todoList li{
+    padding: 0.7rem;
+    background: rgb(191, 255, 237);
+    color: black;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoBtn{
+    min-height: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    cursor: pointer;
+    /* background-color:rgb(249, 193, 202);      */
+}
+.sectionTodo{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.formTodo{
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formTodo input{
+    min-height: 100%;
+
+}
+
+.formTodo input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+.formTodo input[type="submit"]{
+    width: 20%;
+    background-color: rgb(191, 255, 237);
+    font-weight: bold;
+}
+
+.sectionSignUp{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(251, 198, 206);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.signupForm{
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+
+.signupForm label{
+    display: block;
+}
+
+.signupForm input{
+    /* background: rgb(243, 242, 242); */
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.formGroup{
+    margin-top: 1rem;
+}
+
+.signupForm textarea{
+    width: 100%;
+}
+
+.signupBtn{
+    background:rgb(191, 255, 237) ;
+    color: black;
+    padding: 1rem 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
